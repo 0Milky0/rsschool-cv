@@ -29,7 +29,7 @@ function multiply(a, b){
 
 ## Education
 * __University__: The Bonch-Bruevich Saint Petersburg State University of Telecommunications, Control in Technical Systems
-* Courses: UX/UI Design, GeekBrains
+* __Courses__: UX/UI Design, GeekBrains
 
 ## English Language
 B2
