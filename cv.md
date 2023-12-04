@@ -1,7 +1,8 @@
 # Saveleva Milana
-***
+
 ## Contacts
 * __Location__: St. Petersburg, Russia
+* __Email__: savymila@gmail.com
 * __GitHub__: 0Milky0
 * __Telegram__: milana631 
 * __Discord__: milky8337
