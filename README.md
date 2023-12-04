@@ -1,1 +1,1 @@
-# rsschool-cv
+https://0milky0.github.io/rsschool-cv/
