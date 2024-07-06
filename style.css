@@ -1,7 +1,8 @@
 * {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Oswald',sans-serif;
 }
+
 
 .header {
     background-color:#B177DF;
@@ -46,9 +47,9 @@
 }
 
 .description {
-    margin: 2% 0;
+    margin-bottom: 2%;
     font-size: 1.5em;
-    font-style:  lighter;
+    font-weight: 200;
 }
 
 .contacts-href {
@@ -84,9 +85,10 @@
 
 .contact-icon {
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 26px;
-    height: 26px;
+    background-position: center left;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
     margin: 3px;
 }
 .icon-number {
