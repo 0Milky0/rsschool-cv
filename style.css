@@ -1,3 +1,191 @@
 * {
+    margin: 0px;
+    font-family: 'Oswald',sans-serif;
+}
+
+
+.header {
+    background-color:#B177DF;
     margin: 0;
+    height: 50px;
+    align-content: center;
+    width: 100%;
+}
+
+.navigation {
+    margin: 0px;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    list-style-type:none;
+}
+
+.link {
+    text-decoration: none;
+    color:black;
+    transition: all .3s linear;
+}
+
+.link:hover {
+    color: #d8b7f4;
+}
+
+.wrapper {
+    margin: 0;
+}
+
+.main {
+    padding: 0 10%;
+    margin-top: 3%;
+}
+.contacts {
+    display: flex;
+    align-content: center;
+    background-color: #B177DF;
+    padding: 6% 10%;
+}
+
+.description {
+    margin-bottom: 2%;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.contacts-href {
+    margin-left: 5%;
+    align-content: center;
+}
+
+.span-contacts {
+    height: auto;
+    width: 1px;
+    background-color: black;
+}
+
+.contacts-text-and-icon {
+    display: inline-flex;
+    align-content: center;
+}
+
+.list-contacts {
+    padding-left: 0;
+}
+
+.item{
+    list-style-type:none;
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-text {
+    margin-left: 5px;
+}
+
+.contact-icon {
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+}
+.icon-number {
+    background-image: url(./images/number.svg);
+}
+.icon-mail {
+    background-image: url(./images/mail.svg);
+}
+
+.icon-telegram {
+    background-image: url(./images/telegram.svg);
+}
+
+.icon-github {
+    background-image: url(./images/github.svg);
+}
+
+.icon-adress {
+    background-image: url(./images/adress.svg);
+}
+
+.information {
+    display: flex;
+}
+
+.left-column {
+    width: 40%;
+    background-color: #B177DF;
+}
+
+.right-column {
+    width: 60%;
+}
+
+.left-column-header {
+    margin-bottom: 20px;
+}
+
+.left-section {
+    margin: 5% 15% 5% 21%;
+}
+
+.list-skills {
+    padding-left: 30px;
+    margin: 20px 0;
+}
+
+.skills-item {
+    margin: 10px 0;
+    list-style:circle;
+}
+
+.language {
+    margin: 5px 0;
+}
+
+.education {
+    margin: 20px 0;
+}
+.education-years {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #d8b7f4;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-column-header {
+    margin-bottom: 20px;
+    padding: 3%;
+    background-color: #d8b7f4;
+}
+
+.text-about-me {
+    margin: 10px;
+}
+
+.pre {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    font-family: courier, monospace;
+}
+
+.project {
+    margin: 10px;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    padding: 15px 60px 15px 60px;
 }
