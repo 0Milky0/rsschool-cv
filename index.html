@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <!--навигация-->
+            <header class="header">
+                <nav>
+                    <ul class="navigation">
+                        <li>
+                            <a class="link" href="#about">About me</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#code">Code</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#projects">Projects</a>
+                        </li>                                
+                    </ul>
+                </nav>    
+            </header>
+            <main class="main">
+                <!--секция с контактами и фото-->
+                <div class="contacts">
+                    <img src="images/1.jpg" alt="Avatar.jpg" height="320" width="320">
+                    <div  class="contacts-href">
+                        <h1 style="font-size: 3em;">Savelyeva Milana</h1>
+                        <div class="description">Junior Frontend-developer</div>
+                        <div class="contacts-text-and-icon">
+                            <div class="span-contacts"></div>
+                            <ul class="list-contacts">
+                                <li class="list-contacts item">
+                                    <div class="contact-icon icon-number"></div>
+                                    <div class="contact-text">
+                                        <a>8(921)863-87-11</a>
+                                    </div>
+                                </li>
+                                <li class="list-contacts item">
+                                    <div class="contact-icon icon-mail"></div>
+                                    <div class="contact-text">
+                                        <a>savymila@gmail.com</a>
+                                    </div>
+                                </li>
+                                <li class="list-contacts item">
+                                    <div class="contact-icon icon-telegram"></div>
+                                    <div class="contact-text">
+                                        <a>@milana631</a>
+                                    </div>
+                                </li>
+                                <li class="list-contacts item">
+                                    <div class="contact-icon icon-github"></div>
+                                    <div class="contact-text">
+                                        <a>@0milky0</a>
+                                    </div>
+                                </li>
+                                <li class="list-contacts item">
+                                    <div class="contact-icon icon-adress"></div>
+                                    <div class="contact-text">
+                                        <a>Russia, Saint-Petersburg</a>
+                                    </div>
+                                </li>
+                            </ul>                        
+                        </div>
+                    </div>
+                </div>
+                <div class="information">
+                    <!--секция левой колонки-->
+                    <div class="left-column">
+                        <div class="left-section" id="skills">
+                            <h2 class="left-column-header">Skills</h2>
+                            <ul class="list-skills">
+                                <li class="skills-item">JavaScript</li>
+                                <li class="skills-item">CSS</li>
+                                <li class="skills-item">HTML</li>
+                                <li class="skills-item">Figma</li>
+                                <li class="skills-item">Adobe Photoshop</li>
+                                <li class="skills-item">C#</li>
+                            </ul>
+                        </div>
+                        <div class="left-section">
+                            <h2 class="left-column-header">Languages</h2>
+                            <div class="language"><b>Russian</b> — Native</div>
+                            <div class="language"><b>English</b> — Upper-Intermediate</div>
+                        </div>
+                        <div class="left-section">
+                            <h2 class="left-column-header" id="education">Education</h2>
+                            <div class="education">
+                                <div class="education-years">2019 - 2023</div>
+                                <p>The Bonch-Bruevich Saint Petersburg State University of Telecommunications, Control in Technical Systems</p>
+                            </div>
+                            <div class="education">
+                                <div class="education-years">2019 - 2021</div>
+                                <p>UX/UI Design, GeekBrains</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--секция правой колонки-->
+                    <div class="right-column">
+                        <div class="right-section" id="about">
+                            <h2 class="right-column-header">About me</h2>
+                            <div class="text-about-me">
+                                A dedicated and ambitious 23-year-old with a bachelor's degree and a newfound passion for frontend development. 
+                                Eager to dive into the world of web technologies, I thrive on learning new skills. 
+                                My strengths lie in my responsibility and organizational skills, which enable me to manage projects efficiently and meet deadlines consistently. 
+                                I am enthusiastic about applying my skills to create user-friendly and visually appealing web applications.
+                            </div>
+                        </div>
+                        <div class="right-section" id="code">
+                            <h2 class="right-column-header">Code</h2>
+                            <pre class="pre">function multiply(a, b) { <br> &#9;return a * b <br>}                             
+                            </pre>
+                        </div>
+                        <div class="right-section" id="projects">
+                            <h2 class="right-column-header">Projects</h2>
+                            <div class="project">
+                                <a class="link" href="https://github.com/0Milky0/portfolio">My very first project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!--подвал-->
+            <footer class="footer">
+                <p>© 2024</p>
+                <a href="https://github.com/0Milky0" target="_blank" style="color: white; text-decoration: none;">My GitHub</a>
+                <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                    <img src="./images/RSS.svg" width="100" height="70" alt="RSS logo">
+                </a>
+            </footer>
+        </div>
+    </body>
+</html>
