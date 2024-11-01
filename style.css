@@ -57,6 +57,10 @@
     align-content: center;
 }
 
+.contacts-href > h1 {
+    font-size: 3em;
+}
+
 .span-contacts {
     height: auto;
     width: 1px;
@@ -180,6 +184,11 @@
     margin: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.footer > a {
+    color: white;
+    text-decoration: none;
 }
 
 .footer {
